@@ -1,5 +1,53 @@
+* {
+    border: 2px solid black;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    margin-right: auto;
+}
+
+.header .links {
+    margin-left: auto;
+}
+
+.title-section {
+    display: flex;
+}
+
+.title-text {
     display: flex;
     flex-direction: column;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
