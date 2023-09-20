@@ -1,12 +1,20 @@
 * {
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    font-family: 'Noto Sans', sans-serif;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
-    margin-right: 200px;
+}
+
+a {
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
 }
 
 ul {
@@ -20,6 +28,30 @@ ul {
 button {
     width: 75px;
     height: 40px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: 7px;
+}
+
+img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.hero-wrapper,
+.footer-wrapper {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px;
+}
+
+.quote-wrapper {
+    background-color: #e5e7eb;
+}
+
+.action-wrapper {
+    background-color: #3882f6;
 }
 
 .header {
@@ -43,6 +75,7 @@ button {
 
 .title-section p {
     max-width: 600px;
+    font-size: 18px;
 }
 
 .title-section .image {
@@ -59,6 +92,11 @@ button {
 .info {
     display: flex;
     flex-direction: column;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .cards {
@@ -86,6 +124,7 @@ button {
 .small-image {
     width: 125px;
     height: 125px;
+    /* border-color: 2px solid #3882f6; */
 }
 
 #coffee_main {
@@ -96,11 +135,15 @@ button {
 .quote {
     margin-left: 100px;
     margin-right: 100px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 400;
 }
 
 .action {
     display: flex;
     justify-content: space-evenly;
+    background-color: #3882f6;
 }
 
 .sign-up{
@@ -111,4 +154,14 @@ button {
 
 .footer {
     text-align: center;
+}
+
+.header,
+.title-section,
+.info,
+.quote,
+.action,
+.footer {
+    margin-left: 200px;
+    margin-right: 200px;
 }
