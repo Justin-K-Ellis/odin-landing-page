@@ -5,8 +5,8 @@
 body {
     display: flex;
     flex-direction: column;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 ul {
@@ -37,6 +37,12 @@ button {
 
 .title-section {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.title-section p {
+    max-width: 600px;
 }
 
 .title-section .image {
@@ -58,11 +64,15 @@ button {
 .cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
+    max-width: 200px;
 }
 
 .card-content {
@@ -70,6 +80,7 @@ button {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    flex-shrink: 1;
 }
 
 .small-image {
@@ -78,6 +89,26 @@ button {
 }
 
 #coffee_main {
-    width: 85%;
-    height: 85%;
+    width: 320px;
+    height: 214px;
+}
+
+.quote {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
 }
