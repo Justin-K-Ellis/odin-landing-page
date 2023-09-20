@@ -12,7 +12,14 @@ body {
 ul {
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 8px;
+    margin-right: 8px;
+}
+
+button {
+    width: 75px;
+    height: 40px;
 }
 
 .header {
@@ -30,6 +37,12 @@ ul {
 
 .title-section {
     display: flex;
+}
+
+.title-section .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-text {
@@ -50,4 +63,9 @@ ul {
 .card {
     display: flex;
     flex-direction: column;
+}
+
+#coffee_main {
+    width: 85%;
+    height: 85%;
 }
