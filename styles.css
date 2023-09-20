@@ -65,6 +65,18 @@ button {
     flex-direction: column;
 }
 
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.small-image {
+    width: 125px;
+    height: 125px;
+}
+
 #coffee_main {
     width: 85%;
     height: 85%;
