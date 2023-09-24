@@ -46,12 +46,29 @@ img {
     padding: 10px;
 }
 
+.hero-wrapper {
+    padding-bottom: 100px;
+}
+
 .quote-wrapper {
     background-color: #e5e7eb;
 }
 
 .action-wrapper {
-    background-color: #3882f6;
+    /* background-color: #3882f6; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info-wrapper,
+.quote-wrapper {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.footer-wrapper {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .header {
@@ -116,7 +133,7 @@ img {
 .card-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-shrink: 1;
 }
@@ -144,6 +161,9 @@ img {
     display: flex;
     justify-content: space-evenly;
     background-color: #3882f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
 }
 
 .sign-up{
