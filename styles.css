@@ -1,5 +1,4 @@
 * {
-    /* border: 2px solid black; */
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -10,11 +9,6 @@ body {
 
 a {
     color: #e5e7eb;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: 800;
 }
 
 ul {
@@ -55,7 +49,6 @@ img {
 }
 
 .action-wrapper {
-    /* background-color: #3882f6; */
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -90,6 +83,15 @@ img {
     justify-content: space-between;
 }
 
+.large-font {
+    font-size: large;
+    font-weight: 700;
+}
+
+#offer {
+    margin: auto;
+}
+
 .title-section p {
     max-width: 600px;
     font-size: 18px;
@@ -114,6 +116,12 @@ img {
 .info h2 {
     font-size: 36px;
     font-weight: 800;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 .cards {
